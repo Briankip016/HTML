@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <title>🌟 My Second HTML Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>🌟 My Second HTML Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#Cars">Cars</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about"> 
+        <h1>🌟 Welcome to My Second HTML Page</h1>
+        <p>This is a simple HTML page to demonstrate the structure of an HTML document.</p>
+      </section>
+
+      <section id="services">
+        <h2>🌟 Web Development Terminology</h2>
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+          <dt>JavaScript</dt>
+          <dd>A programming language for the web</dd>
+        </dl>
+      </section>
+
+      <section id="Cars">
+        <h3>🌟 Car Brands and Models</h3>
+        <ol>
+          <li> Cars
+            <ol type="i">
+              <li> Toyota
+                <ol type="a">
+                  <li> Camry</li>
+                  <li> Corolla</li>
+                  <li> RAV4</li>
+                </ol>
+              </li>
+              <li> Honda
+                <ol type="a">
+                  <li> Accord</li>
+                  <li> Civic</li>
+                  <li> CR-V</li>
+                </ol>
+              </li>
+              <li> Ford
+                <ol type="a">
+                  <li> F-150</li>
+                  <li> Mustang</li>
+                  <li> Explorer</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h1>🏞️ Images</h1>
+        <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg" alt="Types of Cars" width="500" height="350">
+
+        <h1> 🎵 Audio</h1>
+        <audio controls>
+          <source src="Dance of Resilience.mp3" type="audio/mpeg">
+        </audio>
+
+        <h1>🎥 Video</h1>
+        <video controls width="500" height="350">
+          <source src="carsvid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+        </video>
+
+        <h1> Tables </h1>
+        <table border="1" cellpadding="9" cellspacing="5">
+          <thead>
+            <tr>
+              <th>Car Brand</th>
+              <th>Model</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Toyota</td>
+              <td>Camry</td>
+              <td>2020</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Honda</td>
+              <td>Civic</td>
+              <td>2019</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Ford</td>
+              <td>Mustang</td>
+              <td>2021</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h1> Forms </h1>
+        <form action="location" method="post">
+          <label for="carbrand"> Carbrand:</label>
+          <input type="text" id ="carbrand" name="carbrand">
+          <br><br>
+          <label for="caryear"> Car Year:</label>
+          <input type="text" id ="caryear" name="caryear">
+          <br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="Email" name="Email">
+          <br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+          <br><br>
+          <label for="gender">Gender:</label>
+          <input type="radio" id="Male" name="gender" value="Male"> Male
+          <input type="radio" id="Female" name="gender" value="Female"> Female
+          <br><br>
+          <label for="Country">Country:</label>
+          <select name="Country" id="Country">
+            <option value=""> --- Select Country -- </option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Kenya">Kenya</option>
+          </select>
+          <br><br>
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
