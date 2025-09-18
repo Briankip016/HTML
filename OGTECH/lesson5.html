@@ -7,22 +7,23 @@
     <title>Lesson 4 & 5</title>
 </head>
 <body>
-  <div class="container">
-  <h1> Divs and Span</h1>
-  <p>This <span>top section</span> is an example of a div with Span</p>
+  <div id="header">
+    <h1> Divs and Span</h1>
+    <p>This <span>top section</span> is an example of a div with Span</p>
+    </div>
+
+    <h1>Adding Images</h1>
+    <p>This is an example of an image</p>
+    <img src="testimg.jpg" alt=" This is a test image" width="400">
+
+    <br>
+    <a href="http://facebook.com">Facebook.   </a>
+
+    <br>
+    <a href="http://twitter.com">Twitter</a>
   </div>
 
-  <h1>Adding Images</h1>
-  <p>This is an example of an image</p>
-  <img src="testimg.jpg" alt=" This is a test image" width="400">
-
-  <br>
-  <a href="http://facebook.com">Facebook.   </a>
-
-  <br>
-  <a href="http://twitter.com">Twitter</a>
-
-  <div class="container">
+  <div id="container">
     <table border="1" padding="5" cellspacing="5">
       <thead>
         <tr>
@@ -50,6 +51,29 @@
       </tbody>
     </table>
   </div>
-  
+  <div id="form">
+    <h2>Contact Us</h2>
+    <form action="/submit" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="gender">Gender:</label> <br><br>
+      <label for ='male'>Male</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <br> <br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
+
 </body>
 </html>
